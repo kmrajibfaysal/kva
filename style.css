@@ -60,6 +60,7 @@ nav a:hover {
   background: url(./assets/hero-bg.png);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   height: 674px;
   display: flex;
   flex-direction: column;
@@ -76,6 +77,9 @@ nav a:hover {
   background-color: white;
   border-radius: 50px;
   padding: 8px 15px;
+  border: none;
+  display: flex;
+  gap: 7px;
 }
 
 .hero h1 {
